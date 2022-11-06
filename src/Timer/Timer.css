@@ -1,0 +1,35 @@
+.timer-container {
+  background-color: #ffffff;
+  border: 1px solid #0000cd;
+  height: 30%;
+  width: 70%;
+  box-shadow: 8px 8px gainsboro;
+  border-bottom-width: 12px;
+  border-radius: 5px;
+  margin: 500px 500px;
+}
+
+.time-display {
+  height: 75%;
+  font-family: Roboto, sans-serif;
+  color: mediumblue;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+}
+
+.timer-button-container {
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid mediumblue;
+  height: 25%;
+}
+
+@media screen and (max-width: 1024px) {
+  :root {
+    height: 100%;
+    width: 100%;
+  }
+}

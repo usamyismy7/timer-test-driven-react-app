@@ -1,0 +1,23 @@
+.button-container {
+  flex: 1 1 auto;
+  text-align: center;
+  font-size: 0.8rem;
+  background-color: #00bfff;
+  margin: 5px 7px;
+  padding: 10px 0px;
+  border-radius: 5px;
+  font-family: Roboto, sans-serif;
+  text-transform: uppercase;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+.button-container:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  :root {
+    font-size: 1.6em;
+  }
+}
